@@ -1,0 +1,94 @@
+# Requirements for Student Management System
+
+## Functional Requirements
+
+1. The system should allow users to add student records.
+2. The system should allow users to update existing student information.
+3. The system should allow users to delete student records.
+4. The system should display all stored student details.
+5. The system should search student records using Student ID.
+6. The system should store records permanently using file handling.
+7. The system should provide a menu-driven interface for easy navigation.
+
+---
+
+# Non-Functional Requirements
+
+* Easy to use
+* Fast response time
+* Reliable data storage
+* Simple console interface
+* Maintainable and scalable code structure
+
+---
+
+# Software Requirements
+
+* Operating System: Windows / Linux / macOS
+* Compiler: GCC / G++ Compiler
+* IDE (Optional):
+
+  * Visual Studio Code
+  * Code::Blocks
+  * Dev-C++
+  * CLion
+
+---
+
+# Hardware Requirements
+
+* Minimum 2 GB RAM
+* Intel/AMD Processor
+* 100 MB Free Disk Space
+
+---
+
+# Programming Requirements
+
+* Programming Language: C++
+* Concepts Required:
+
+  * Classes and Objects
+  * File Handling
+  * Functions
+  * Loops
+  * Conditional Statements
+  * Vectors
+  * String Handling
+
+---
+
+# File Requirements
+
+```plaintext id="mqv2jp"
+main.cpp
+students.txt
+README.md
+```
+
+---
+
+# Libraries Used
+
+```cpp id="37hvpr"
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <sstream>
+```
+
+---
+
+# Compiler Command
+
+```bash id="0w1o98"
+g++ main.cpp -o student
+```
+
+---
+
+# Run Command
+
+```bash id="qghvk7"
+./student
+```
